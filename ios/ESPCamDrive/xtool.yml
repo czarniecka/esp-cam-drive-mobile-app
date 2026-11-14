@@ -1,0 +1,4 @@
+version: 1
+bundleID: com.ola.espcamdrive
+product: ESPCamDrive
+infoPath: ESPCamDrive-Info.plist

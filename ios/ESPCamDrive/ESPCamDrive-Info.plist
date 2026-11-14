@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>ESP Cam Drive</string>
+    <key>UILaunchScreen</key>
+    <dict/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Aplikacja łączy się z kamerą ESP32-CAM w Twojej sieci WiFi.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>location</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Lokalizacja jest używana tylko po to, by aplikacja mogła działać w tle i cyklicznie pobierać zdjęcia z kamery. Pozycja nie jest zapisywana ani wysyłana.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Lokalizacja jest używana tylko po to, by aplikacja mogła działać w tle i cyklicznie pobierać zdjęcia z kamery. Pozycja nie jest zapisywana ani wysyłana.</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+</dict>
+</plist>
